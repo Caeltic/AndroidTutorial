@@ -1,7 +1,7 @@
 package gg.celtic.app;
 
 /**
- * Created by Fabi on 13/11/17.
+ * Created by Fabian on 13.11.2017.
  */
 
 import android.os.Bundle;
@@ -11,12 +11,16 @@ import android.view.View;
 import android.view.ViewGroup;
 
 public class MainActivityFragment extends Fragment{
-    public MainActivityFragment(){
 
+    public MainActivityFragment() {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+
         return inflater.inflate(R.layout.fragment_main, container, false);
+
     }
+
 }
