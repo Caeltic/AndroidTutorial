@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tutorial</string>
+    <string name="hello_world">Das ist ein komischer Testname</string>
+    <string name="action_settings">Settings</string>
+</resources>
